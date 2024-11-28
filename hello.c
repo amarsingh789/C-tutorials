@@ -35,7 +35,6 @@ int main(){
     }
     printf("age checker");
     return 0;
-}
 //switch statement ;
     int day; //1-mon,2-tues,3-wed so on 
     printf("enter day(1-7)");
@@ -59,3 +58,19 @@ int main(){
     }
     return 0;
 }
+int number ;
+    printf("enter the number");
+    scanf("%d", &number);
+
+    if (number>=0)
+    {
+        printf("number is positive\n");
+        if (number % 2 == 0)
+        {
+           printf("number is even\n");
+        }else{
+            printf("number is odd\n");
+        }
+    }else{
+        printf("number is negative\n");
+    }
