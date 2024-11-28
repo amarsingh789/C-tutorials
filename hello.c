@@ -36,3 +36,26 @@ int main(){
     printf("age checker");
     return 0;
 }
+//switch statement ;
+    int day; //1-mon,2-tues,3-wed so on 
+    printf("enter day(1-7)");
+    scanf("%d",&day);
+    switch(day){
+        case 1: printf("monday\n");
+                 break;
+        case 2: printf("tuesay\n");
+                 break;
+        case 3: printf("wednesday\n");
+                  break;
+        case 4: printf("thrusday\n");
+                  break;
+        case 5: printf("friday\n");
+                  break;
+        case 6: printf("saturday\n");
+                 break;
+        case 7: printf("sunday\n");
+                 break;
+        default: printf("that is not valid day\n");
+    }
+    return 0;
+}
