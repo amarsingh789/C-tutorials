@@ -74,3 +74,14 @@ int number ;
     }else{
         printf("number is negative\n");
     }
+int marks;
+    printf("enter the number(0-100) :");
+    scanf("%d", &marks);
+    if (marks >= 0 && marks<=30){
+        printf("Fail\n");
+    }else if(marks > 30 && marks <= 100){
+       printf("Pass\n");
+    }else{
+        printf("wrong number\n");
+    }
+    return 0 ;
