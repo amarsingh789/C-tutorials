@@ -102,3 +102,18 @@ int marks;
         printf("A+");
     }
     return 0;
+}
+//this code will be detect captial/small letter
+int main(){
+    char ch;
+    printf("enter thr character: ");
+    scanf("%c",&ch);
+
+    if (ch >= 'A' && ch <= 'Z'){
+       printf("Capital Letter\n");
+    } else if (ch >= 'a' && ch <= 'z'){
+       printf("lower case\n");
+    }else{
+        printf("other letter\n");
+    }  
+}
