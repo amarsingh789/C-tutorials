@@ -20,5 +20,13 @@ int main(){
         printf("%d\n", i);
         i++;
     }
+
+   //Do While Loop
+    int i = 5;
+   do{
+    printf("%d\n",i);
+    i--;
+   }while(i>=1);
+
      return 0;
 }
