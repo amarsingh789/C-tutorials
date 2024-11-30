@@ -60,5 +60,17 @@ do{
 }while(1);
 printf("thank you");
 
+   //QUESTION -04
+int n;
+do{
+  printf("enter the number: ");
+  scanf("%d", &n);
+  printf("%d\n", n);
+
+  if(n % 7 == 0){
+    break;
+  }
+}while(1);
+printf("thank you\n");
      return 0;
 }
