@@ -28,7 +28,7 @@ int main(){
     i--;
    }while(i>=1);
 
-    // question
+    // question-01
   int n;
   printf("enter the number: ");
   scanf("%d", &n);
@@ -37,5 +37,14 @@ int main(){
     sum = sum + i;
   }
   printf("sum is %d\n",sum);
+
+   //QUESTION -2
+int n;
+printf("enter the number: ");
+scanf("%d", &n);
+
+for(int i=1; i<=10; i++ ){
+  printf("%d\n", n*i);
+}
      return 0;
 }
