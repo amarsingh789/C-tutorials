@@ -46,5 +46,19 @@ scanf("%d", &n);
 for(int i=1; i<=10; i++ ){
   printf("%d\n", n*i);
 }
+
+   //QUESTION -03
+int n;
+do{
+  printf("enter the number: ");
+  scanf("%d", &n);
+  printf("%d\n", n);
+
+  if(n % 2 != 0){
+    break;
+  }
+}while(1);
+printf("thank you");
+
      return 0;
 }
