@@ -72,5 +72,35 @@ do{
   }
 }while(1);
 printf("thank you\n");
+   //question-05
+
+for (int i = 0; i <=10; i++)
+{
+  if(i==6){
+    continue;
+  }
+  printf("%d\n", i);
+}
+
+//QUESTION-06
+
+for(int i = 5; i<=50; i++){
+  if(i % 2 == 0){
+    continue;
+  }
+  printf("%d\n",i);
+}
+
+//question-07
+
+int n;
+printf("enter the number: ");
+scanf("%d", &n);
+
+int fact = 1;
+for(int i =1; i<=n; i++){
+  fact = fact*i;
+}
+printf("final factorial is %d", fact);
      return 0;
 }
