@@ -134,3 +134,44 @@ float convertTemp(float celicus){
     float far = celicus * (9.0/5.0) + 32;
     return far;
 }
+
+// this code will give sum of number
+int sum(int n);
+
+int main(){
+    printf("%d", sum(8));
+    return 0;
+}
+
+int sum(int n){
+    if(n == 1){
+        return 1;
+    }
+    int sumNm1 = sum(n-1);
+    int sumN = sumNm1 + n;
+    return sumN;
+}
+
+// this code wil inform cold/summer 
+void summer();
+void winter();
+
+int main(){
+    printf("enter the temperture: ");
+    int temp;
+    scanf("%d", &temp);
+    if (temp < 15 )
+    {
+        winter();
+    }else{
+        summer();
+    }
+    return 0;
+}
+
+void summer(){
+    printf("Hots\n");
+}
+void winter(){
+    printf("Cold\n");
+}
