@@ -120,3 +120,17 @@ int fact(int n){
     int factN = factNum1 * n;
     return factN;  
 }
+
+//question-05
+float convertTemp(float celicus);
+
+int main(){
+    float far = convertTemp(32);
+    printf("far : %f", far);
+    return 0;
+}
+
+float convertTemp(float celicus){
+    float far = celicus * (9.0/5.0) + 32;
+    return far;
+}
