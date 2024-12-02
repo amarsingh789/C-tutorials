@@ -79,3 +79,28 @@ void printTable(int n){//parameter
         printf("%d\n", i*n);
     }
 }
+//question (jiska need ho uska value enter or define karo then run code)
+#include<math.h>
+
+float squareArea(float side);
+float circleArea(float radius);
+float rectangleArea(float a, float b);
+
+int main(){
+    float a = 5.0;
+    float b = 37.0;
+
+    printf("area will be %f",rectangleArea(a,b) );
+
+    return 0;
+}
+
+float squareArea(float side){
+    return side * side;
+}
+float circleArea(float radius){
+    return 3.14 * radius * radius;
+}
+float rectangleArea(float a, float b){
+    return a*b;
+}
