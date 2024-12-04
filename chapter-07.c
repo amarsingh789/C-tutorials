@@ -79,3 +79,33 @@ int main(){
     }
     return 0;
 }
+
+//print array 
+void printNumber(int arr[], int n);
+
+int main(){
+    int arr[] = {1,2,3,4,5,6};
+    printNumber(arr, 6);
+    return 0;
+}
+
+void printNumber(int arr[], int n){
+    for(int i =0; i<n; i++){
+        printf("%d \t",arr[i]);
+    }
+    printf("\n");
+}
+//2D array basic question
+int main(){
+    int marks[2][3];
+    marks[0][0] = 90;
+    marks[0][1] =94;
+    marks[0][2] = 89;
+
+    marks[1][0] = 95;
+    marks[1][1] =74;
+    marks[1][2] = 84;
+
+    printf("%d",marks[1][2]);
+    return 0;
+}
